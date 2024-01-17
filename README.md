@@ -1,6 +1,6 @@
 # PPT: Token Pruning and Pooling for Efficient Vision Transformers
 
-Official PyTorch implemention of **PPT** from our paper: [PPT: Token Pruning and Pooling for Efficient Vision Transformers](https://arxiv.org/abs/2310.01812).
+Official PyTorch implementation of **PPT** from our paper: [PPT: Token Pruning and Pooling for Efficient Vision Transformers](https://arxiv.org/abs/2310.01812).
 Xinjian Wu, Fanhu Zeng, Xiudong Wang, Yunhe Wang, Xinghao Chen
 
 
@@ -9,7 +9,7 @@ Xinjian Wu, Fanhu Zeng, Xiudong Wang, Yunhe Wang, Xinghao Chen
 <img src="imgs/F1.png" alt="Alt text" style="display: block; margin: auto; width:90%;">
 
 &nbsp;
-The proposed framework, named as token Pruning & Pooling Transformers (PPT), allows you to take an existing Vision Transformer architecture and efficiently compress tokens inside of the network for faster evaluation.PPT is tuned to seamlessly fit inside existing vision transformers, so you can use it without having to do additional training. And if you *do use* PPT during training, you can reduce the accuracy drop even further while also speeding up training considerably.
+The proposed framework, named token Pruning & Pooling Transformers (PPT), allows you to take an existing Vision Transformer architecture and efficiently compress tokens inside of the network for faster evaluation. PPT is tuned to seamlessly fit inside existing vision transformers, so you can use it without having to do additional training. And if you *do use* PPT during training, you can reduce the accuracy drop even further while also speeding up training considerably.
 
 ## What PPT does
 
@@ -18,7 +18,7 @@ PPT can jointly tackle the inattentive redundancy and duplicative redundancy in 
 <img src="imgs/F4.png" alt="Alt text" style="display: block; margin: auto; width:100%;">
 
 &nbsp;
-In order to demonstrate the performance of the approach more intuitively, we show the visualization of f token compression results on ImageNet-1k val using a trained DeiT-S model with PPT.
+In order to demonstrate the performance of the approach more intuitively, we show the visualization of token compression results on ImageNet-1k val using a trained DeiT-S model with PPT.
 
 <img src="imgs/F5.png" alt="Alt text" style="display: block; margin: auto; width:100%;">
 
