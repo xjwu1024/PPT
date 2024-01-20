@@ -24,7 +24,7 @@ In order to demonstrate the performance of the approach more intuitively, we sho
 
 ## News
 
-+ **[2024.01.18]** Initial release.
++ **[2024.01.18]** Codes of PPT are released both in [Pytorch](https://github.com/xjwu1024/PPT) and [Mindspore](https://github.com/mindspore-lab/models/).
 
 ## Usage
 
@@ -75,7 +75,7 @@ This should give
 macs:2.944411999GFLOPs
 * Acc@1 79.498 Acc@5 94.722 loss 0.913
 ```
-Noticed: Throughput will also be evaluated, although this metric is significantly impacted by hardware. You can compare the performance of PPT with the original DeiT-S to assess their effectiveness.
+**Noticed:** Throughput will also be evaluated, although this metric is significantly impacted by hardware. You can compare the performance of PPT with the original models to assess their effectiveness.
 
 ### Training
 
