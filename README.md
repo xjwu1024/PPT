@@ -24,7 +24,7 @@ In order to demonstrate the performance of the approach more intuitively, we sho
 
 ## News
 
-+ **[2024.01.18]** Codes of PPT are released both in [Pytorch](https://github.com/xjwu1024/PPT) and [Mindspore](https://github.com/mindspore-lab/models/).
++ **[2024.01.18]** Codes of PPT are released both in [PyTorch](https://github.com/xjwu1024/PPT) and [Mindspore](https://github.com/mindspore-lab/models/).
 
 ## Usage
 
