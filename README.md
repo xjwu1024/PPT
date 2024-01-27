@@ -66,7 +66,7 @@ The directory structure is the standard layout for the torchvision [`datasets.Im
 
 ### Evaluation
 
-To evaluate PPT on a pre-trained DeiT-small on ImageNet val with a single GPU run:
+To evaluate PPT on a pre-trained DeiT-small (without fine-tuning) on ImageNet val with a single GPU run:
 ```
 python main.py --eval --resume https://dl.fbaipublicfiles.com/deit/deit_small_patch16_224-cd65a155.pth --model deit_small_patch16_224 --data-path /path/to/imagenet --batch_size 256 --r_tokens 50 --pp_loc_list 3 6 9 --threshold 7e-5
 ```
@@ -87,7 +87,7 @@ python -m torch.distributed.launch  --nproc_per_node=4 --use_env main.py --resum
 
 ## Citation
 
-If you use ToMe or this repository in your work, please cite:
+If you use PPT or this repository in your work, please cite:
 
 ```
 @article{wu2023ppt,
@@ -97,3 +97,5 @@ If you use ToMe or this repository in your work, please cite:
   year={2023}
 }
 ```
+
+and provide a link to this repository as a footnote or a citation.
