@@ -1,7 +1,7 @@
 # PPT: Token Pruning and Pooling for Efficient Vision Transformers
 
 Official PyTorch implementation of **PPT** from our paper: [PPT: Token Pruning and Pooling for Efficient Vision Transformers](https://arxiv.org/abs/2310.01812).
-Xinjian Wu, Fanhu Zeng, Xiudong Wang, Yunhe Wang, Xinghao Chen
+Xinjian Wu, Fanhu Zeng, Xiudong Wang, Xinghao Chen
 
 
 ## What is PPT?
