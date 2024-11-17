@@ -91,8 +91,8 @@ If you use PPT or this repository in your work, please cite:
 
 ```
 @article{wu2023ppt,
-  title={PPT: Token Pruning and Pooling for Efficient Vision Transformers},
-  author={Wu, Xinjian and Zeng, Fanhu and Wang, Xiudong and Wang, Yunhe and Chen, Xinghao},
+  title={Ppt: Token pruning and pooling for efficient vision transformers},
+  author={Wu, Xinjian and Zeng, Fanhu and Wang, Xiudong and Chen, Xinghao},
   journal={arXiv preprint arXiv:2310.01812},
   year={2023}
 }
